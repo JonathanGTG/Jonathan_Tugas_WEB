@@ -94,21 +94,7 @@ table {
     border-radius: 5px;
     text-align: justify;
 }
-
-.content img {
-.content img {
-    padding: 5px;
-    width: 50vh;
-    height: 30vh;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 30%;
-    border-radius: 15px;
-}
-    text-align: center;
-    font-family: monospace;
-    color: rgb(77, 22, 229);
-}
+  
 
 #jdl1 {
     padding: 10px;
@@ -131,7 +117,6 @@ table {
 }
 
 .content img {
-    position: relative;
     padding: 5px;
     width: 50vh;
     height: 30vh;
