@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('Foto/0311c570-1572-4983-8024-770dcd5de4cf.jpg');
+    background-size: 100%;
+    margin-top: 60px;
+    
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    background: #EBEBEB;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #3396D3;
+    margin-top: 5px;
+}
+
+#nama {
+    box-sizing: border-box;
+    border-color: #647FBC;
+    width: 70%;
+    height: 0.8cm;
+}
+
+#tanggal_lahir {
+    box-sizing: border-box;
+    border-color: #647FBC;
+    width: 70%;
+    height: 0.8cm;
+}
+
+#kampus {
+    box-sizing: border-box;
+    border-color: #647FBC;
+    width: 70%;
+    height: 0.8cm;
+}
+
+#password {
+    box-sizing: border-box;
+    border-color: #647FBC;
+    width: 70%;
+    height: 0.8cm;
+}
+
+#konfirmasi_password {
+    box-sizing: border-box;
+    border-color: #647FBC;
+    width: 70%;
+    height: 0.8cm;
+}
+
+#alamat {
+    box-sizing: border-box;
+    border-color: #647FBC;
+    width: 70%;
+    height: 2cm;
+}
+
+#jurusan {
+    box-sizing: border-box;
+    border-color: #647FBC;
+    width: 70%;
+    height: 0.8cm;
+}
+
+.gender {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #647FBC;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}

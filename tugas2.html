@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <form >
+        <h2>Pendaftaran</h2>
+        <label id="nama" for="nama">Nama:</label><br>
+        <input type="text" id="nama" name="nama" required><br><br>
+
+        <label id="tanggal_lahir" for="tanggal_lahir">Tanggal Lahir:</label><br>
+        <input type="date" id="tanggal_lahir" name="tanggal_lahir" required><br><br>
+
+        <label id="kampus" for="kampus">Universitas:</label><br>
+        <input type="text" id="kampus" name="kampus" required><br><br>
+
+        <label id="password" for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label id = "konfirmasi_password" for="konfirmasi_password">Konfirmasi Password:</label><br>
+        <input type="password" id="konfirmasi_password" name="konfirmasi_password" required><br><br>
+
+        <label id = "alamat" for="alamat">Alamat:</label><br>
+        <textarea id="alamat" name="alamat" rows="3" required></textarea><br><br>
+
+        <label>Jenis Kelamin:</label><br>
+        <div class="gender">
+        <input type="radio" id="pria" name="gender" value="Pria" required>
+        <label for="pria">Pria</label>
+        <input type="radio" id="wanita" name="gender" value="Wanita">
+        <label for="wanita">Wanita</label><br><br>
+        </div>
+
+        <label>Hobi:</label><br>
+        <input type="checkbox" id="membaca" name="hobi" value="Membaca">
+        <label for="membaca">Membaca</label>
+        <input type="checkbox" id="olahraga" name="hobi" value="Olahraga">
+        <label for="olahraga">Olahraga</label>
+        <input type="checkbox" id="musik" name="hobi" value="Musik">
+        <label for="musik">Musik</label><br><br>
+
+        <label id="jurusan" for="jurusan">Jurusan:</label><br>
+        <select id="jurusan" name="jurusan" required>
+            <option value="">--Pilih Jurusan--</option>
+            <option value="TI">Teknologi Informasi</option>
+            <option value="SI">Ilmu Komputer</option>
+            <option value="DKV">Teknik Informatika</option>
+            <option value="DKV">Sistem Informasi</option>
+        </select><br><br>
+
+       
+
+        <button type="submit">Daftar</button>
+    </form>
+</body>
+</html>
