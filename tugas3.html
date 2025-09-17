@@ -35,9 +35,21 @@
             </tr>
         </table>
         <script>
+            function isNull(val) {
+                return val === "" || val === null || isNaN(val);
+            }
+
             function proses(operasi) {
-                let bilangan1 = Number(document.kalkulator.bilangan1.value);
-                let bilangan2 = Number(document.kalkulator.bilangan2.value);
+                let bilangan1 = document.kalkulator.bilangan1.value;
+                let bilangan2 = document.kalkulator.bilangan2.value;
+
+                if (isNull(bilangan1) || isNull(bilangan2)) {
+                    document.getElementById('hasil').textContent = "Input tidak boleh kosong!";
+                    return;
+                }
+
+                bilangan1 = Number(bilangan1);
+                bilangan2 = Number(bilangan2);
                 let hasil;
                 switch (operasi) {
                     case 'tambah':
@@ -55,9 +67,7 @@
                     default:
                         hasil = '';
                 }
-                
                 document.getElementById('hasil').textContent = hasil;
-
             }
         </script>
     </form>
